@@ -100,7 +100,7 @@ public class SignUtils {
 //        String personSign = SignCounter.countSign(amount, merchantOrder, limitPayer, fromEa, fromUid, toEa, toUid, merchantId, expireTime, token)
 //        String personSign = SignCounter.countSign("0.24", "1029", "0", "149", "1278", "149", "1000", "2015122210001", "1461564216568", "gduuz5o86n");
 //        String personSign = SignCounter.countSign(amount, merchantOrder, limitPayer, fromEa, fromUid, merchantId, expireTime, token)
-        String personSign = SignCounter.countSign("0.43", "1073", "1", "149", "1000", "2015122210001", "123", "gduuz5o86n");
+        String personSign = SignCounter.countSign("0.50", "1073", "1", "149", "1000", "2015122210001", "123", "gduuz5o86n");
         System.out.println(personSign);
     }
 
